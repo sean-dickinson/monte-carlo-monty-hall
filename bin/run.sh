@@ -1,0 +1,1 @@
+docker run -it --rm --name monty-hall-script -v "$PWD":/usr/src/myapp -w /usr/src/myapp ruby:3.1.1 ruby monty_hall.rb
